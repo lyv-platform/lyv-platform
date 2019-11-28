@@ -1,8 +1,6 @@
-<div align="center">
-  <img width="300" src="images/lyv.png">
-  <h1>Lyv Platform</h1>
-</div>
+![Lyv Platform](images/lyv-platform.png)
 
+----
 
 ## Documentation & Usage
 
