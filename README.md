@@ -2,6 +2,11 @@
 
 ----
 
+![License](https://img.shields.io/github/license/lyv-platform/lyv-platform?color=%230bb791)
+![Version](https://img.shields.io/badge/version-0.0.1--alpha-green?color=%230bb791)
+![GitHub last commit](https://img.shields.io/github/last-commit/lyv-platform/lyv-platform?color=%230bb791)
+
+
 ## Documentation & Usage
 
 See [the documentation page](pages/01-intro.md).
