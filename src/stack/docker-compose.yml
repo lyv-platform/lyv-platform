@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+  influxdb:
+    image: lyv-platform/influxdb:1.7.9
+    container_name: influxdb
+    ports:
+      - 8086:8086
+
+  kafka:
+    image: lyv-platform/kafka:2.3.0
+    container_name: kafka
+    ports:
+      - 9092:9092
+    depends_on:
+      - zookeeper
+
+  zookeeper:
+    image: lyv-platform/zookeeper:3.5.5
+    container_name: zookeeper
+    ports:
+      - 2181:2181
+      - 8080:8080
