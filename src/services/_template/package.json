@@ -1,0 +1,41 @@
+{
+  "name": "@lyv-platform/template-package",
+  "version": "1.0.0",
+  "description": "Template for creating Lyv Platform's packages.",
+  "keywords": [
+    "lyv-platform",
+    "microservices"
+  ],
+  "homepage": "https://github.com/lyv-platform/lyv-platform/tree/master/src/services/template#readme",
+  "bugs": {
+    "url": "https://github.com/lyv-platform/lyv-platform/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyv-platform/lyv-platform/tree/master/src/services/template"
+  },
+  "license": "MIT",
+  "author": "Joao Fernandes <ojoaofernandes@gmail.com> (https://www.linkedin.com/in/ojoaofernandes)",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint .",
+    "start": "npm run build && node ./dist/index.js",
+    "test": "mocha ./specs",
+    "test:coverage": "nyc npm run test"
+  },
+  "devDependencies": {
+    "@babel/core": "7.8.4",
+    "@babel/preset-env": "7.8.4",
+    "@babel/register": "7.8.3",
+    "babel-loader": "8.0.6",
+    "chai": "4.2.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.20.1",
+    "husky": "4.2.3",
+    "mocha": "7.0.1",
+    "nyc": "15.0.0",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11"
+  }
+}
